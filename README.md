@@ -49,8 +49,16 @@ Perfect for data analysts, business intelligence professionals, and decision-mak
 ├── CONTRIBUTING.md              # Contribution guidelines
 ├── .gitignore                   # Git ignore rules
 ├── .gitattributes              # Git attributes
+│
+├── sales_dashboard_animation.gif    # Generated: Animated dashboard
+├── sales_dashboard_static.png       # Generated: Static dashboard
+│
 └── project/                     # Virtual environment (not in git)
 ```
+
+**Generated Files (After Running main.py):**
+- `sales_dashboard_animation.gif` - Animated visualization
+- `sales_dashboard_static.png` - Static image export
 
 ## 🚀 Quick Start
 
@@ -93,6 +101,20 @@ The script will generate:
 - `sales_dashboard_animation.gif` - Animated dashboard
 - `sales_dashboard_static.png` - Static PNG image
 
+**Generation Time:** ~30-60 seconds depending on your system  
+**Output Size:** ~6-8 MB total (GIF + PNG)
+
+### 📁 Dashboard Output Files
+
+After running the script, you'll find two files in your project directory:
+
+| File | Type | Size | Best For |
+|------|------|------|----------|
+| `sales_dashboard_animation.gif` | Animated GIF | ~5-6 MB | Presentations, video embeds |
+| `sales_dashboard_static.png` | Static Image | ~1-2 MB | Reports, documentation |
+
+**Note:** These are generated files and are not tracked in git (.gitignore excludes them). You can safely delete and regenerate them by running `python main.py` again.
+
 ## 📊 Dataset Information
 
 **File:** `Update.dataset.csv`  
@@ -131,6 +153,93 @@ The dashboard generates professional visualizations showing:
 - Category-wise revenue distribution
 - Pricing and profit relationships
 - Regional sales performance
+
+### 🎬 Dashboard Outputs
+
+When you run `main.py`, the script generates:
+
+**1. Animated Dashboard (GIF)**
+- File: `sales_dashboard_animation.gif`
+- Size: ~5-6 MB
+- Format: Animated GIF with smooth chart transitions
+- Use: Professional presentations, stakeholder meetings, reports
+
+**2. Static Dashboard (PNG)** 
+- File: `sales_dashboard_static.png`
+- Size: ~1-2 MB
+- Format: High-resolution PNG image
+- Use: Reports, emails, documentation
+
+Both outputs display the same 5 key charts in a professional, visually appealing layout with:
+- Clean typography and branding
+- Color-coded data categories
+- Clear legends and labels
+- Ready for presentations and reports
+
+## � Viewing the Dashboard
+
+After running `python main.py`, open the generated files:
+
+### **Animated Dashboard**
+- **File:** `sales_dashboard_animation.gif`
+- **Open with:** Any image viewer, web browser, or presentation software
+- **Best for:** Animated presentations, email previews
+
+### **Static Dashboard**
+- **File:** `sales_dashboard_static.png`
+- **Open with:** Any image viewer (Photos, Paint, Preview, etc.)
+- **Best for:** Reports, documentation, high-quality output
+
+**Windows Quick Tip:** Double-click the GIF or PNG files to view them instantly!
+
+## 🚀 What Happens When You Run the Script?
+
+1. **Load Data**: Reads `Update.dataset.csv` (5,000 sales records)
+2. **Process Data**: Aggregates and calculates key metrics
+3. **Create Charts**: Generates 5 professional visualizations:
+   - Monthly Revenue Trend
+   - Top 10 Products by Revenue
+   - Revenue Distribution by Category
+   - Price vs Profit Analysis
+   - Revenue by Region
+4. **Generate Outputs**: 
+   - Saves animated version as `sales_dashboard_animation.gif`
+   - Saves static version as `sales_dashboard_static.png`
+5. **Display Results**: Shows completion message with file locations
+
+**Execution Time:** 30-60 seconds  
+**Output Quality:** High-resolution, professional-grade visualizations
+
+## ❓ Troubleshooting
+
+### Dashboard Files Not Generated
+
+**Problem:** Script runs but no GIF/PNG files appear
+
+**Solutions:**
+1. Check file permissions in the project folder
+2. Ensure `Update.dataset.csv` exists and is readable
+3. Try running with admin privileges
+4. Check console output for error messages
+
+### Very Slow Execution
+
+**Problem:** Script takes longer than 2 minutes
+
+**Solutions:**
+1. This is normal for large datasets (5,000+ records)
+2. GIF animation generation is CPU-intensive
+3. First run may be slower than subsequent runs
+
+### Memory Issues
+
+**Problem:** "Memory error" or script crashes
+
+**Solutions:**
+1. Close other applications
+2. Reduce dataset size temporarily for testing
+3. Ensure at least 2GB free RAM available
+4. Update matplotlib and pillow packages
 
 ## 🔧 Configuration
 
