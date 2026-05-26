@@ -117,11 +117,11 @@ The script will generate:
 
 ## 💡 Use Cases
 
+- **Personal Analysis**: Analyze your own sales data
 - **Business Intelligence**: Present sales performance to stakeholders
-- **Data Analysis**: Explore trends and patterns in sales data
-- **Decision Making**: Identify top products and regions
+- **Learning**: Explore data visualization with pandas and matplotlib
+- **Template**: Use as a base for similar analytics projects
 - **Presentations**: Professional dashboard for client meetings
-- **Training**: Learn data visualization with pandas and matplotlib
 
 ## 📈 Output Examples
 
@@ -156,11 +156,15 @@ dashboard.create_dashboard()
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Setting up development environment
-- Code style and standards
-- Commit message format
-- Pull request process
+This is a personal project, but feel free to fork it, modify it, or use it as a reference for your own work!
+
+**Want to adapt this for your needs?**
+1. Fork the repository
+2. Modify the code to fit your dataset
+3. Customize charts and analysis
+4. Share your improvements (optional)
+
+For detailed development setup, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## 📄 License
 
@@ -190,7 +194,8 @@ See [CHANGELOG.md](CHANGELOG.md) for complete version history and planned featur
 
 ---
 
-**Made with ❤️ for Data Analysts and BI Professionals**
+**Made with ❤️ by Chavagani Nagendra Babu**  
+*Passionate about Data Analysis & Business Intelligence*
    source project/bin/activate      # Linux/Mac
    ```
 
