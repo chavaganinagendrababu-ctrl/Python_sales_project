@@ -52,8 +52,8 @@ Thumbs.db
 .env.*.local
 
 # Large binary files and media
-*.gif
-*.png
+# *.gif
+# *.png
 *.jpg
 *.jpeg
 *.mp4
@@ -62,6 +62,10 @@ Thumbs.db
 *.docx
 *.xlsx
 *.pdf
+
+# Exceptions: Allow dashboard outputs
+!sales_dashboard_animation.gif
+!sales_dashboard_static.png
 
 # Temporary files
 *.tmp
