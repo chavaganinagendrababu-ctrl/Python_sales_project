@@ -40,3 +40,13 @@ Thumbs.db
 # Other
 .env
 .ipynb_checkpoints/
+
+# Large binary files and documents
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.xlsx
+*.mp4
+*.mov
