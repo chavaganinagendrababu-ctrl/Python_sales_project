@@ -1,9 +1,3 @@
-# Virtual Environment
-project/
-venv/
-env/
-ENV/
-
 # Python
 __pycache__/
 *.py[cod]
@@ -22,31 +16,55 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# IDE
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+project/
+
+# IDE & Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
 Thumbs.db
+*.sublime-project
+*.sublime-workspace
 
-# Other
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment
 .env
-.ipynb_checkpoints/
+.env.local
+.env.*.local
 
-# Large binary files and documents
+# Large binary files and media
 *.gif
 *.png
 *.jpg
 *.jpeg
-*.docx
-*.xlsx
 *.mp4
 *.mov
+*.avi
+*.docx
+*.xlsx
+*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.cache/
